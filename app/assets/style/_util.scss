@@ -1,0 +1,47 @@
+.w-445p {
+    max-width: 445px;
+}
+
+.h-84p {
+    height: 84px;
+}
+
+.h-350p {
+    height: 350px;
+}
+
+.h-400p {
+    height: 400px;
+}
+
+.h-480 {
+    height: 480px;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.bg-lightgray {
+    background-color: #EFEFEF;
+}
+
+.w-85 {
+    width: 100%;
+    
+    @include pad {
+        width: 85%;
+    }
+}
+
+.me-12 {
+    margin-right: 104px;
+}
+
+.mb-12 {
+    margin-bottom: 104px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.point {
+  top: -13%;
+  left: 45%;
+  width: 10px;
+  height: 10px;
+
+  @include pad {    
+    top: -10%;
+    left: 45%;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.text {
+  font-size: 14px;
+  line-height: 21px;
+
+  @include pad {    
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
