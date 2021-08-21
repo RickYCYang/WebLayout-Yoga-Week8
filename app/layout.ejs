@@ -15,31 +15,26 @@
     <!-- AOS Animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Silom Font Family -->
+    <link href="http://fonts.cdnfonts.com/css/silom" rel="stylesheet">
   </head>
 
   <body>
-    <header class="border border-medium">
-      <div class="container py-5">
-        <div class="row justify-content-center"> 
-          <div class="col-md-4 col-3"></div>
-          <div class="col-md-4 col-6">
-            <h1 class="d-flex justify-content-center m-0">
-              <a class="fw-bold fs-4" href="./index.html">EXHIBINECTION</a>
-            </h1>
-          </div>
-          <div class="col-md-4 col-3">
-            <nav>
-              <ul class="list-unstyled d-flex justify-content-end mb-0 me-3 me-md-0">
-                <li class="d-md-block d-none ms-md-7 "><a href="#" class="text-medium">Sign in</a></li>
-                <li class="d-md-block d-none ms-md-7"><a href="#" class="text-medium">Sign up</a></li>
-                <li class="ms-md-7">
-                  <a class="position-relative" href="./checkout.html">
-                    <span class="material-icons fs-4 text-dark">shopping_cart</span>
-                    <span class="position-absolute translate-middle badge rounded-circle bg-danger fs-7 w-100 h-100">5<span class="visually-hidden">unread messages</span></span>
-                  </a>                  
-                </li>
-              </ul>
-            </nav>
+    <header class="bg-secondary">
+      <div class="container py-4">
+        <div class="d-flex justify-content-between align-items-center"> 
+          <h1 class="mb-0 d-flex align-items-center"><a href="#" class="logo text-light-brown fs-4">DOYOGA</a></h1>
+          <nav>
+            <ul class="list-unstyled d-flex align-items-center m-0">
+              <li class="text-medium px-4"><a href="#">課程介紹</a></li>
+              <li class="text-medium px-4"><a href="#">瑜珈空間</a></li>
+              <li class="text-medium px-4"><a href="#">當月課表</a></li>
+            </ul>
+          </nav>
+          <div>
+            <a class="btn btn-outline-primary rounded-pill mx-2 px-4">立即預約</a>
+            <a class="btn btn-outline-primary rounded-pill mx-2 px-4">聯絡我們</a>
           </div>
         </div>
       </div>
@@ -47,33 +42,14 @@
 
     <%- contents %>
 
-    <footer>
-      <div class="footer_bg h-400p">
-        <div class="container h-100 pb-8">
-          <div class="h-100 d-flex flex-column justify-content-end">
-            <p class="w-445p fs-2 text-light fw-bold">想收到展覽的最新消息嗎？ <br>快訂閱我們！</p>
-            <div class="d-flex">
-              <input type="email" name="" id="" placeholder="輸入您的電子信箱" class="d-block fs-6 p-3 border-0 shadow-none">
-              <button class="btn btn-secondary d-block fs-6 py-3 px-8 border-0" >訂閱</button>
-            </div>
-          </div>
+    <footer class="bg-primary">
+      <div class="container">
+        <div class="row">
+          <p class="text-light fs-3 mb-0">現在訂閱，獲得課程優惠碼！</p>
         </div>
+        <div class="row"></div>
+        <div class="row"></div>
       </div>
-        <div class="container py-md-6 py-4">
-          <div class="d-flex justify-content-between">
-            <h2 class="fs-4 m-md-0">
-              EXHIBINECTION 
-              <br class="d-block d-md-none">
-              <span class="align-middle fs-6 ms-md-4 d-blick d-md-inline">© 2020. All Rights Reserved.</span>
-            </h2>
-            <nav class="d-none d-md-block">
-              <ul class="d-flex list-unstyled m-md-0">
-                <li class="text-medium fs-6 ms-md-5">Sign in</li>
-                <li class="text-medium fs-6 ms-md-5">Sign up</li>
-              </ul>
-            </nav>
-          </div>          
-        </div>
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
@@ -90,7 +66,6 @@
         debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
         throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
         
-
         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
         offset: 150, // offset (in px) from the original trigger point
         delay: 0, // values from 0 to 3000, with step 50ms
