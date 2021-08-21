@@ -1,10 +1,51 @@
----
-title: Art Exhibitions Demo
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<!-- Banner -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Art Exhibitions Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+
+    <!-- Material Icon CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <header class="border border-medium">
+      <div class="container py-5">
+        <div class="row justify-content-center"> 
+          <div class="col-md-4 col-3"></div>
+          <div class="col-md-4 col-6">
+            <h1 class="d-flex justify-content-center m-0">
+              <a class="fw-bold fs-4" href="./index.html">EXHIBINECTION</a>
+            </h1>
+          </div>
+          <div class="col-md-4 col-3">
+            <nav>
+              <ul class="list-unstyled d-flex justify-content-end mb-0 me-3 me-md-0">
+                <li class="d-md-block d-none ms-md-7 "><a href="#" class="text-medium">Sign in</a></li>
+                <li class="d-md-block d-none ms-md-7"><a href="#" class="text-medium">Sign up</a></li>
+                <li class="ms-md-7">
+                  <a class="position-relative" href="./checkout.html">
+                    <span class="material-icons fs-4 text-dark">shopping_cart</span>
+                    <span class="position-absolute translate-middle badge rounded-circle bg-danger fs-7 w-100 h-100">5<span class="visually-hidden">unread messages</span></span>
+                  </a>                  
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner -->
 <div class="banner_bg banner-ps h-480 d-flex align-items-md-center align-items-end" data-aos="fade-up">
   <div>
       <h2 class="text-light fs-2 mb-md-2">台北當代藝術展</h2>
@@ -185,3 +226,62 @@ current: index
     </ul>
   </section>
 </main>
+
+
+    <footer>
+      <div class="footer_bg h-400p">
+        <div class="container h-100 pb-8">
+          <div class="h-100 d-flex flex-column justify-content-end">
+            <p class="w-445p fs-2 text-light fw-bold">想收到展覽的最新消息嗎？ <br>快訂閱我們！</p>
+            <div class="d-flex">
+              <input type="email" name="" id="" placeholder="輸入您的電子信箱" class="d-block fs-6 p-3 border-0 shadow-none">
+              <button class="btn btn-secondary d-block fs-6 py-3 px-8 border-0" >訂閱</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container py-md-6 py-4">
+          <div class="d-flex justify-content-between">
+            <h2 class="fs-4 m-md-0">
+              EXHIBINECTION 
+              <br class="d-block d-md-none">
+              <span class="align-middle fs-6 ms-md-4 d-blick d-md-inline">© 2020. All Rights Reserved.</span>
+            </h2>
+            <nav class="d-none d-md-block">
+              <ul class="d-flex list-unstyled m-md-0">
+                <li class="text-medium fs-6 ms-md-5">Sign in</li>
+                <li class="text-medium fs-6 ms-md-5">Sign up</li>
+              </ul>
+            </nav>
+          </div>          
+        </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script> 
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 150, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 600, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+  </body>
+
+</html>
