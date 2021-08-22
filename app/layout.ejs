@@ -25,17 +25,20 @@
       <div class="container py-4">
         <div class="d-flex justify-content-between align-items-center"> 
           <h1 class="mb-0 d-flex align-items-center"><a href="#" class="logo text-light-brown fs-4">DOYOGA</a></h1>
-          <nav>
+          <nav class="d-lg-block d-none">
             <ul class="list-unstyled d-flex align-items-center m-0">
               <li class="text-medium px-4"><a href="#">課程介紹</a></li>
               <li class="text-medium px-4"><a href="#">瑜珈空間</a></li>
               <li class="text-medium px-4"><a href="#">當月課表</a></li>
             </ul>
           </nav>
-          <div>
+          <div class="d-lg-block d-none">
             <a class="btn btn-outline-primary rounded-pill mx-2 px-4">立即預約</a>
             <a class="btn btn-outline-primary rounded-pill mx-2 px-4">聯絡我們</a>
           </div>
+          <span class="d-lg-none">
+            <i class="material-icons text-primary">menu</i>
+          </span>
         </div>
       </div>
     </header>
@@ -43,12 +46,43 @@
     <%- contents %>
 
     <footer class="bg-primary">
-      <div class="container">
-        <div class="row">
-          <p class="text-light fs-3 mb-0">現在訂閱，獲得課程優惠碼！</p>
+      <div class="border-bottom border-light">
+        <div class="container py-lg-7 py-5">
+          <div class="d-flex flex-column flex-lg-row justify-content-between">
+            <p class="text-light fs-3 mb-lg-0">現在訂閱，獲得課程優惠碼！</p>
+            <div class="d-flex">
+              <input class="w-input rounded-left d-block border-0 ps-4" type="text" placeholder="輸入您的電子信箱" aria-label="email">
+              <button class="btn btn-light-brown text-light h-100" id="basic-addon2">訂閱</button>
+            </div>
+          </div>
         </div>
-        <div class="row"></div>
-        <div class="row"></div>
+      </div>
+      <div class="container py-lg-7 py-5">
+        <div class="row">
+          <div class="col-8 col-lg-4">
+            <a href="#" class="logo text-light fs-4 mb-2">DOYOGA</a>
+            <nav>
+              <ul class="list-unstyled text-light">
+                <li class="mx-1 ms-0"><a>課程介紹</a></li>
+                <li class="mx-1 ms-0"><a>瑜珈空間</a></li>
+                <li class="mx-1 ms-0"><a>當月課表</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-none d-lg-block col-lg-4 align-self-end">
+            <p class="text-light fs-6 text-center mb-0">© 2021. All Rights Reserved.</p>
+          </div>
+          <div class="col-4">
+            <ul class="list-unstyled d-flex justify-content-end">
+              <li class="mx-1"><a href="#" class="bg-fb d-block bg-no-repeat rounded bg-size-cover w-24 h-24"></a></li>
+              <li class="mx-1"><a href="#" class="bg-ig d-block bg-no-repeat rounded bg-size-cover w-24 h-24"></a></li>
+              <li class="mx-1"><a href="#" class="bg-line d-block bg-no-repeat rounded bg-size-cover w-24 h-24"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row d-md-none">
+          <p class="text-light">© 2021. All Rights Reserved.</p>
+        </div>
       </div>
     </footer>
 

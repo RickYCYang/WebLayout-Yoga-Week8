@@ -1,47 +1,63 @@
-.w-445p {
-    max-width: 445px;
-}
+.w-input {
+    width: 273px;
 
-.h-84p {
-    height: 84px;
-}
-
-.h-350p {
-    height: 350px;
-}
-
-.h-400p {
-    height: 400px;
-}
-
-.h-480 {
-    height: 480px;
-}
-
-.object-fit-cover {
-    object-fit: cover;
-}
-
-.bg-lightgray {
-    background-color: #EFEFEF;
-}
-
-.w-85 {
-    width: 100%;
-    
     @include pad {
-        width: 85%;
+        width: 258px;
+    }
+
+    @include desktop {
+        width: 350px;
     }
 }
 
-.me-12 {
-    margin-right: 104px;
+.w-24 {
+    width: 24px;
 }
 
-.mb-12 {
-    margin-bottom: 104px;
+.h-24 {
+    height: 24px;
 }
 
-.cursor-pointer {
-    cursor: pointer;
+.w-48 {
+    width: 48px;
+}
+
+.h-48 {
+    height: 48px;
+}
+
+.t-50 {
+    top: 50%;
+}
+
+.r-0 {
+    right: 0;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-size-cover {
+    background-size: cover;
+}
+
+.bg-position-center {
+    background-position: center;
+}
+
+.bg-position-bottom {
+    background-position: bottom;
+}
+
+.bg-fb {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/exhibition-week6/facebook-24px.svg");
+}
+
+.bg-ig {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week4/logo-instagram.svg");
+}
+
+.bg-line {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-line.svg");
 }
