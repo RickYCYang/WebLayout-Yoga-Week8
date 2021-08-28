@@ -3,6 +3,26 @@
     height: 582px;
 }
 
+.custom-card1 {
+    @include pad {
+        min-height: 210px;
+    }
+    @include desktop {
+        min-height: 420px;
+    }
+}
+
+.custom-card1-title {
+    @include pad {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    @include desktop {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
 .bg-yoga1 {
     background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true");
 }
