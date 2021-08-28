@@ -18,36 +18,44 @@
 
     <!-- Silom Font Family -->
     <link href="http://fonts.cdnfonts.com/css/silom" rel="stylesheet">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="bg-secondary">
       <div class="container py-4">
-        <div class="d-flex justify-content-between align-items-center"> 
-          <h1 class="mb-0 d-flex align-items-center"><a href="#" class="logo text-light-brown fs-4">DOYOGA</a></h1>
-          <nav class="d-lg-block d-none">
-            <ul class="list-unstyled d-flex align-items-center m-0">
-              <li class="text-medium px-4"><a href="#">課程介紹</a></li>
-              <li class="text-medium px-4"><a href="#">瑜珈空間</a></li>
-              <li class="text-medium px-4"><a href="#">當月課表</a></li>
-            </ul>
-          </nav>
-          <div class="d-lg-block d-none">
-            <a class="btn btn-outline-primary rounded-pill mx-2 px-4">立即預約</a>
-            <a class="btn btn-outline-primary rounded-pill mx-2 px-4">聯絡我們</a>
+        <div class="row"> 
+          <div class="col col-lg-4 d-flex align-items-center">
+            <h1 class="mb-0 lh-1 d-flex align-items-center"><a href="./index.html" class="logo text-light-brown fs-4">DOYOGA</a></h1>
           </div>
-          <span class="d-lg-none">
-            <i class="material-icons text-primary">menu</i>
-          </span>
+          <div class="d-none d-lg-flex col-lg-4 justify-content-center align-items-center">
+            <nav>
+              <ul class="list-unstyled d-flex align-items-center m-0">
+                <li class="text-medium px-4"><a href="#">課程介紹</a></li>
+                <li class="text-medium px-4"><a href="#">瑜珈空間</a></li>
+                <li class="text-medium px-4"><a href="#">當月課表</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col col-lg-4 d-flex justify-content-end align-items-center">
+            <div class="d-lg-block d-none">
+              <a class="btn btn-outline-primary rounded-pill mx-2 px-4">立即預約</a>
+              <a class="btn btn-outline-primary rounded-pill mx-2 px-4">聯絡我們</a>
+            </div>
+            <span class="d-lg-none">
+              <i class="material-icons text-primary">menu</i>
+            </span>
+          </div>
         </div>
       </div>
     </header>
 
     <nav class="position-fixed t-50 r-0 pe-4 z-index-2">
       <ul class="list-unstyled">
-          <li><a href="#" class="bg-fb d-block bg-no-repeat rounded-circle bg-size-cover w-48 h-48 mb-2"></a></li>
-          <li><a href="#" class="bg-ig d-block bg-no-repeat rounded-circle bg-size-cover w-48 h-48 mb-2"></a></li>
-          <li><a href="#" class="bg-line d-block bg-no-repeat rounded-circle bg-size-cover w-48 h-48"></a></li>
+          <li class="d-flex justify-content-center mb-2"><a href="#"><i class="fab fa-facebook fs-1 text-primary"></i></a></li>
+          <li class="d-flex justify-content-center mb-2"><a href="#"><i class="fab fa-instagram fs-1 text-primary"></i></a></li>
+          <li class="d-flex justify-content-center mb-2"><a href="#"><i class="fab fa-line fs-1 text-primary"></i></a></li>
       </ul>
     </nav>
 
@@ -55,7 +63,7 @@
 <div class="bg_banner bg-no-repeat bg-size-cover bg-position-bottom position-relative">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
-            <div class="col-5 offset-1">
+            <div class="col-md-8 col-lg-5 offset-lg-1">
                 <p class="text-medium mb-0">健身輕時尚</p>
                 <h1 class="text-medium">DOYOGA，做你的瑜珈</h1>
                 <h4 class="text-medium mb-4">多給自己一點時間享受靜謐，傾聽內心的聲音。</h4>
@@ -66,43 +74,248 @@
     </div>
 </div>
 <main>
-     <!--感受身心，活在當下-->
-    <section class="container">
-        <div class="py-11">
-            <h3 class="text-primary lh-sm text-center">感受身心，活在當下</h3>
-            <h5 class="text-light-brown lh-sm mb-7 text-center fs-5">DOYOGA 可以帶給你...</h5>
-            <div class="row gx-6 text-light">
-                <div class="col-12 col-md-4">
-                    <div class="bg-yoga1 rounded-pill min-height-420 bg-size-cover bg-position-center d-flex flex-column justify-content-end align-items-start p-5">
-                        <h5>整體健身</h5>
-                        <p class="fs-6 p-0">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</p>
-                    </div>
+    <!--感受身心，活在當下-->
+    <section class="container py-11">
+        <h3 class="text-primary lh-base text-center">感受身心，活在當下</h3>
+        <h5 class="text-light-brown lh-base mb-7 text-center fs-5">DOYOGA 可以帶給你...</h5>
+        <div class="row gx-6 text-light">
+            <div class="col-12 col-md-4">
+                <div class="bg-yoga1 custom-card1 rounded-pill bg-size-cover bg-position-center d-flex flex-column justify-content-end align-items-start p-5">
+                    <h5 class="custom-card1-title">整體健身</h5>
+                    <p class="fs-6 p-0">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="bg-yoga2 rounded-pill min-height-420 bg-size-cover bg-position-center d-flex flex-column justify-content-end align-items-start p-5">
-                        <h5>減壓放鬆</h5>
-                        <p class="fs-6 p-0">調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。</p>
-                    </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="bg-yoga2 custom-card1 rounded-pill bg-size-cover bg-position-center d-flex flex-column justify-content-end align-items-start p-5">
+                    <h5 class="custom-card1-title">減壓放鬆</h5>
+                    <p class="fs-6 p-0">調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。</p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="bg-yoga3 rounded-pill min-height-420 bg-size-cover bg-position-center d-flex flex-column justify-content-end align-items-start p-5">
-                        <h5>局部雕塑</h5>
-                        <p class="fs-6 p-0">幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</p>
-                    </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="bg-yoga3 custom-card1 rounded-pill bg-size-cover bg-position-center d-flex flex-column justify-content-end align-items-start p-5">
+                    <h5 class="custom-card1-title">局部雕塑</h5>
+                    <p class="fs-6 p-0">幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</p>
                 </div>
             </div>
         </div>
     </section>
     <!--頂尖師資、專業教學-->
-    <section class="bg-secondary py-10 px-12">
-        <div class="container">
+    <section class="bg-secondary">
+        <div class="container py-10">
             <div class="row gx-7">
                 <div class="col">
                     <img class="rounded-pill max-height-628 w-100 object-fit-none" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg?raw=true">
                 </div>
                 <div class="col py-7">
-                    <h3 class="lh-sm text-primary fw-bold">頂尖師資、專業教學</h3>
-                    <p class="text-light-brown fs-5">強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。</p>
+                    <div>
+                        <h3 class="lh-base text-primary fw-bold">頂尖師資、專業教學</h3>
+                        <p class="text-light-brown fs-5">強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。</p>
+                    </div>
+                    <div class="d-flex align-items-center bg-light rounded-pill py-11 px-8 mb-4 ms-n12">
+                        <img class="w-96 h-96 px-0 d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/teacher-1.png?raw=true" />
+                        <div class="d-flex flex-column justify-content-center">
+                            <h3 class="fs-5 text-medium mb-1">Carol Tang 老師</h3>
+                            <p class="fs-6 text-medium mb-1">教學經歷 10 年</p>
+                            <p class="fs-6 text-medium mb-1">瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。</p>
+                        </div>
+                    </div>
+                    <div class="d-flex bg-light rounded-pill py-5 px-8 mb-4">
+                        <img class="w-68 h-68 px-0 d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/teacher-2.png?raw=true" />
+                        <div class="d-flex flex-column justify-content-center">
+                            <h3 class="fs-5 text-medium mb-1">Kanae 老師</h3>
+                            <p class="fs-6 text-medium mb-1">教學經歷 10 年</p>
+                        </div>
+                    </div>
+                    <div class="d-flex bg-light rounded-pill py-5 px-8">
+                        <img class="w-68 h-68 px-0 d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/teacher-3.png?raw=true" />
+                        <div class="d-flex flex-column justify-content-center">
+                            <h3 class="fs-5 text-medium mb-1">Asa Ifrit 老師</h3>
+                            <p class="fs-6 text-medium mb-1">教學經歷 10 年</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--舒適空間、靜心放鬆-->
+    <section class="container py-10">
+        <div class="row gx-7">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-8">
+                        <img class="rounded-pill w-100 h-444 object-fit-cover me-7" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/carl-barcelo-nqUHQkuVj3c-unsplash.jpg?raw=true">
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-between">
+                        <img class="rounded-pill w-100 h-107 object-fit-cover" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/white%20round%20table%20near%20brown%20wooden%20chair.jpg?raw=true">
+                        <img class="rounded-pill w-100 h-107 object-fit-cover" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20blue%20denim%20jeans%20doing%20yoga.jpg?raw=true">
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 d-flex flex-column justify-content-center align-items-start">
+                <h3 class="text-primary fs-3 lh-base">舒適空間、靜心放鬆</h3>
+                <p class="text-light-brown fs-5 lh-base mb-5">我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。</p>
+                <a class="text-light-brown fs-6" href="#">環境介紹 <span class="material-icons align-middle">arrow_right_alt</span></a>
+            </div>
+        <div>
+    </section>
+    <!--精心設計、課程多元-->
+    <section class="bg-secondary py-10 ps-md-180">
+        <div class="row gx-7 mw-100 mx-0 pe-5">
+            <div class="d-flex flex-column justify-content-center col-md-5 offset-md-1">
+                <h3 class="lh-base text-primary mb-1">精心設計、課程多元</h3>
+                <p class="fs-5 text-light-brown lh-base">教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。</p>
+                <a class="text-light-brown fs-6" href="#">課程介紹 <span class="material-icons align-middle">arrow_right_alt</span></a>
+            </div>
+            <div class="col-6 px-0">
+                <div class="d-flex flex-nowrap x-overflow-auto">
+                    <img class="d-block rounded-pill w-445 h-445 object-fit-cover me-7" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20doing%20yoga%20beside%20wall.jpg?raw=true">
+                    <img class="d-block rounded-pill w-445 h-445 object-fit-cover me-7" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg?raw=true">
+                    <img class="d-block rounded-pill w-445 h-445 object-fit-cover me-7" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20black%20sports%20bra%20and%20black%20leggings%20doing%20yoga.jpg?raw=true">
+                    <img class="d-block rounded-pill w-445 h-445 object-fit-cover" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--方案選擇-->
+    <section class="container py-11">
+        <h3 class="text-primary lh-base text-center">方案選擇</h3>
+        <h5 class="text-light-brown lh-base mb-7 text-center fs-5">DOYOGA 可以帶給你...</h5>
+        <div class="row gx-7">
+            <div class="col-md-4">
+                <div class="card rounded-pill">
+                    <img class="card-img-top rounded-top-pill object-fit-cover h-300" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true" >
+                    <div class="card-body text-light-brown rounded-pill">
+                        <h5 class="card-title text-center text-primary">首次體驗</h5>
+                        <p class="card-title text-center fs-5">NT $450 / 次</p>
+                        <p class="card-text mb-7 text-primary">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</p>
+                        <a href="#" class="btn btn-light-brown text-light w-100">選擇課程</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card rounded-pill">
+                    <img class="card-img-top rounded-top-pill object-fit-cover h-300" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20performing%20yoga.jpg?raw=true" >
+                    <div class="card-body text-light-brown rounded-pill">
+                        <h5 class="card-title text-center text-primary">首次體驗</h5>
+                        <p class="card-title text-center fs-5">NT $450 / 次</p>
+                        <p class="card-text mb-7 text-primary">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</p>
+                        <a href="#" class="btn btn-light-brown text-light w-100">選擇課程</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card rounded-pill">
+                    <img  class="card-img-top rounded-top-pill object-fit-cover h-300" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20blue%20leggings%20and%20black%20tank%20top%20doing%20yoga.jpg?raw=true">
+                    <div class="card-body text-light-brown rounded-pill">
+                        <h5 class="card-title text-center text-primary">首次體驗</h5>
+                        <p class="card-title text-center fs-5">NT $450 / 次</p>
+                        <p class="card-text mb-7 text-primary">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</p>
+                        <a href="#" class="btn btn-light-brown text-light w-100">選擇課程</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--聽聽他們怎麼說-->
+    <section class="bg-secondary py-10">
+        <div class="container">
+            <h3 class="text-primary lh-base text-center mb-7">聽聽他們怎麼說</h3>
+            <div class="row gx-7">
+                <div class="col-4 mb-4"> 
+                    <div class="bg-light px-5 py-4 text-primary rounded-pill d-flex align-items-center">
+                        <img class="d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-1.png?raw=true" />
+                        <div>
+                            <h6>Joanne <span>Oct 17 2020</span></h6>
+                            <div class="mb-3 fs-5">
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                            </div>
+                            <p class="mb-0">服務很好、設備優良！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="bg-light px-5 py-4 text-primary rounded-pill d-flex align-items-center">
+                        <img class="d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-2.png?raw=true" />
+                        <div>
+                            <h6>Joanne <span>Oct 17 2020</span></h6>
+                            <div class="mb-3 fs-5">
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                            </div>
+                            <p class="mb-0">服務很好、設備優良！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="bg-light px-5 py-4 text-primary rounded-pill d-flex align-items-center">
+                        <img class="d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-3.png?raw=true" />
+                        <div>
+                            <h6>Joanne <span>Oct 17 2020</span></h6>
+                            <div class="mb-3 fs-5">
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                            </div>
+                            <p class="mb-0">服務很好、設備優良！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="bg-light px-5 py-4 text-primary rounded-pill d-flex align-items-center">
+                        <img class="d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-4.png?raw=true" />
+                        <div>
+                            <h6>Joanne <span>Oct 17 2020</span></h6>
+                            <div class="mb-3 fs-5">
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                            </div>
+                            <p class="mb-0">服務很好、設備優良！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="bg-light px-5 py-4 text-primary rounded-pill d-flex align-items-center">
+                        <img class="d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/user-5.png?raw=true" />
+                        <div>
+                            <h6>Joanne <span>Oct 17 2020</span></h6>
+                            <div class="mb-3 fs-5">
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                            </div>
+                            <p class="mb-0">服務很好、設備優良！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"> 
+                    <div class="bg-light px-5 py-4 text-primary rounded-pill d-flex align-items-center">
+                        <img class="d-block me-5" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/uset-6.png?raw=true" />
+                        <div>
+                            <h6>Joanne <span>Oct 17 2020</span></h6>
+                            <div class="mb-3 fs-5">
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                                <span>&#10029;</span>
+                            </div>
+                            <p class="mb-0">服務很好、設備優良！</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,9 +352,9 @@
           </div>
           <div class="col-4">
             <ul class="list-unstyled d-flex justify-content-end">
-              <li class="mx-1"><a href="#" class="bg-fb d-block bg-no-repeat rounded bg-size-cover w-24 h-24"></a></li>
-              <li class="mx-1"><a href="#" class="bg-ig d-block bg-no-repeat rounded bg-size-cover w-24 h-24"></a></li>
-              <li class="mx-1"><a href="#" class="bg-line d-block bg-no-repeat rounded bg-size-cover w-24 h-24"></a></li>
+              <li class="mx-1"><a href="#"><i class="fab fa-facebook fs-4 text-light"></i></a></li>
+              <li class="mx-1"><a href="#"><i class="fab fa-instagram fs-4 text-light"></i></a></li>
+              <li class="mx-1"><a href="#"><i class="fab fa-line fs-4 text-light"></i></a></li>
             </ul>
           </div>
         </div>
