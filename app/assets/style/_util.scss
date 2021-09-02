@@ -59,16 +59,32 @@
     height: 40%;
 }
 
-.h-107 {
-    height: 207px;
+.h-lg-207 {
+    @include desktop {
+        height: 207px;
+    }
+}
+
+.h-md-117 {
+    @include pad {
+        height: 117px;
+    }
 }
 
 .h-300 {
     height: 300px;
 }
 
-.h-444 {
-    height: 444px;
+.h-lg-444 {
+    @include desktop {
+        height: 444px;
+    }
+}
+
+.h-md-266 {
+    @include pad {
+        height: 266px;
+    }
 }
 
 .h-445 {
@@ -142,9 +158,33 @@
 }
 
 .x-overflow-auto {
+    overflow-x: hidden;
+}
+
+.x-overflow-auto:hover {
     overflow-x: auto;
 }
 
 .rounded-top-pill {
     border-radius: 1rem 1rem 0 0 !important;
+}
+
+.w-md-450 {
+    @include pad {
+        width: 450px;
+    }
+
+    @include desktop {
+        width: auto;
+    }
+}
+
+.w-md-570 {
+    @include pad {
+        width: 570px;
+    }
+
+    @include desktop {
+        width: auto;
+    }
 }
