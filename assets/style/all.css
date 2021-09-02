@@ -16143,16 +16143,32 @@ img {
   height: 40%;
 }
 
-.h-107 {
-  height: 207px;
+@media (min-width: 769px) {
+  .h-lg-207 {
+    height: 207px;
+  }
+}
+
+@media (min-width: 376px) {
+  .h-md-117 {
+    height: 117px;
+  }
 }
 
 .h-300 {
   height: 300px;
 }
 
-.h-444 {
-  height: 444px;
+@media (min-width: 769px) {
+  .h-lg-444 {
+    height: 444px;
+  }
+}
+
+@media (min-width: 376px) {
+  .h-md-266 {
+    height: 266px;
+  }
 }
 
 .h-445 {
@@ -16229,11 +16245,39 @@ img {
 }
 
 .x-overflow-auto {
+  overflow-x: hidden;
+}
+
+.x-overflow-auto:hover {
   overflow-x: auto;
 }
 
 .rounded-top-pill {
   border-radius: 1rem 1rem 0 0 !important;
+}
+
+@media (min-width: 376px) {
+  .w-md-450 {
+    width: 450px;
+  }
+}
+
+@media (min-width: 769px) {
+  .w-md-450 {
+    width: auto;
+  }
+}
+
+@media (min-width: 376px) {
+  .w-md-570 {
+    width: 570px;
+  }
+}
+
+@media (min-width: 769px) {
+  .w-md-570 {
+    width: auto;
+  }
 }
 
 .logo {
@@ -16247,7 +16291,7 @@ img {
 
 @media (min-width: 376px) {
   .custom-card1 {
-    min-height: 210px;
+    min-height: 252px;
   }
 }
 
@@ -16260,7 +16304,7 @@ img {
 @media (min-width: 376px) {
   .custom-card1-title {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
   }
 }
 
