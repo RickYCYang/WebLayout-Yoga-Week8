@@ -9,7 +9,7 @@ https://rickycyang.github.io/WebLayout-Yoga-Week8/
 ![YOGA Home Page](https://user-images.githubusercontent.com/54363801/133832487-19b6756f-8faa-4517-8c5c-9b6761ce5a8b.png)
 
 - Home Page - Pad
-- 
+
 ![YOGA Home Page 2](https://user-images.githubusercontent.com/54363801/133832887-48aeb6ce-d7df-463c-838f-7b186e86245b.png)
 
 
