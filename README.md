@@ -1,4 +1,4 @@
-## Gitgub Page
+## Gitgub Page (unfinished - Home Page for Desktop Only)
 https://rickycyang.github.io/WebLayout-Yoga-Week8/
 
 ## Preview 
