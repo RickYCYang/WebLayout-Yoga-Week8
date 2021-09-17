@@ -1,4 +1,7 @@
-## Gitgub Page (unfinished - Home Page for Desktop Only)
+## Web Layout Practice
+Bootstrap, Scss, HTML
+
+## Gitgub Page (Unfinished - [Home Page for Desktop Only])
 https://rickycyang.github.io/WebLayout-Yoga-Week8/
 
 ## Preview 
