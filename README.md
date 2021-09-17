@@ -2,7 +2,6 @@
 https://rickycyang.github.io/WebLayout-Yoga-Week8/
 
 ## Preview 
-
 - Home Page - Desktop
 ![YOGA Home Page](https://user-images.githubusercontent.com/54363801/133832487-19b6756f-8faa-4517-8c5c-9b6761ce5a8b.png)
 
