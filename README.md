@@ -1,3 +1,12 @@
+## Preview 
+
+- Home Page - Desktop
+![YOGA Home Page](https://user-images.githubusercontent.com/54363801/133832487-19b6756f-8faa-4517-8c5c-9b6761ce5a8b.png)
+
+- Home Page - Pad
+![YOGA Home Page 2](https://user-images.githubusercontent.com/54363801/133832887-48aeb6ce-d7df-463c-838f-7b186e86245b.png)
+
+
 ## 指令列表
 
 - `gulp` - 執行開發模式(會開啟模擬瀏覽器並監聽相關檔案)
